@@ -1,4 +1,4 @@
-你講得對。**Spatial BG ratio** 要先知道哪裡是 foreground / background，沒有 segmentation、bbox、mask 時會很勉強，不適合放在你的最小實驗設計裡。
+**Spatial BG ratio** 要先知道哪裡是 foreground / background，沒有 segmentation、bbox、mask 時會很勉強，不適合放在你的最小實驗設計裡。
 
 你這題最穩的做法，還是照 VDU 的思路，把 dataset 當成不同 **structural pressure**，再用 attention map 萃出幾個**不需要額外標註**、但能支撐 claim 的統計量。VDU 強調的核心就是：dataset 的 motion complexity、temporal span、hierarchical structure 會驅動模型學到不同 inductive bias；而 comparative review 那篇的好處是，它示範了可以用 **average rank**、**confusion matrix** 這種很乾淨的 summary 來整理比較。   
 
