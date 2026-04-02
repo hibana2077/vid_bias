@@ -30,13 +30,6 @@ from huggingface:
 
 > shot means shoter pretraining epoch, not shorter input length.  details in [docs](./videomae.md)
 
-## Video Prism
-
-from huggingface:
-
-- google/videoprism-base-f16r288
-- google/videoprism-large-f8r288
-
 ## Xclip
 
 from huggingface:
@@ -44,3 +37,5 @@ from huggingface:
 - microsoft/xclip-base-patch32
 - microsoft/xclip-base-patch16
 - microsoft/xclip-base-patch16-kinetics-600
+
+> details in [docs](./xclip.md)
